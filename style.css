@@ -1,0 +1,361 @@
+body {
+    margin: 0rem 3rem;
+
+}
+
+header {
+    background-image: url(../img/fon1.png);
+    height: 96vh;
+    width: 1440px;
+    background-size: cover;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul {
+    margin: 0rem 6rem;
+    /* box-shadow: #153a37b4 0px 10px 10px 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    /* z-index: 1;
+    position: fixed; */
+    /* width: 1400px;
+    padding: 0rem 1.250rem;
+    background-color: #153a37b4; */
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.search img {
+    position: relative;
+    right: 2.12rem;
+    top: 8px;
+}
+
+.search :hover {
+    transition: 3s;
+    width: 250px;
+}
+
+.search input {
+    width: 218px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    display: none;
+}
+
+/* .search input :hover{
+    transition: 4s;
+    width: 450px;
+   
+} */
+
+.search ::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.lang :hover {
+    transition: 1.5s;
+    box-shadow: 5px 5px 8px 10px rgba(0, 0, 0, 0.534);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.img2 :hover {
+    transition: 1.5s;
+    transform: rotate(4deg);
+    border-radius: 22px;
+}
+
+.doba :hover {
+    transition: 2s;
+    background-color: #fff;
+    transform: scale(1.1);
+    color: #153A37;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.name {
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+
+.name h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Montagu Slab';
+}
+
+.name button {
+    width: 154px;
+    height: 43px;
+    background-color: #153A37;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.img {
+    position: absolute;
+    left: 45rem;
+    top: 6rem;
+}
+
+.img1 {
+    position: absolute;
+    left: 48rem;
+    top: 9rem;
+}
+
+.img2 {
+    position: absolute;
+    left: 52rem;
+    top: 13.4rem;
+}
+
+.line {
+    position: relative;
+    top: 14.5rem;
+    line-height: 2.5rem;
+
+
+}
+
+.shadow {
+    position: absolute;
+    top: 26.5rem;
+}
+
+.line1 {
+    position: relative;
+    top: 13.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 auto;  */
+    gap: 1rem;
+    padding-top: 1rem;
+
+
+}
+
+.line1 h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+.lang {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-top: 5rem;
+    border-radius: 20px;
+}
+
+.car {
+    padding-top: 15rem;
+}
+
+.liner {
+    position: relative;
+    top: 14.5rem;
+    left: 0.940rem;
+    line-height: 2.5rem;
+    color: #000;
+
+}
+
+.liner img {
+    background-color: #000;
+}
+
+.liner {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3rem;
+}
+
+.liner1 {
+    display: flex;
+    height: 5px;
+    align-items: center;
+    padding-top: 17.5rem;
+    justify-content: center;
+    gap: 3px;
+}
+
+.krug {
+    position: relative;
+    left: 1.8rem;
+}
+
+.me1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    gap: 5rem;
+    align-items: center;
+}
+
+.me1 p {
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.me2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 11rem;
+
+}
+
+.me3 {
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.footer {
+    width: 1440px;
+    height: 130vh;
+    background-color: #153A37;
+    margin-top: 13rem;
+}
+
+.fblock {
+    position: relative;
+    top: -18.5rem;
+}
+
+.shadow1 img {
+    position: absolute;
+    top: 186.4rem;
+}
+
+.input {
+    display: grid;
+    color: #000;
+    padding-left: 5rem;
+}
+
+
+.in input {
+    display: grid;
+    width: 706px;
+    height: 70px;
+    background-color: #153a3700;
+    border-color: #000;
+    margin-top: 2rem;
+    border-width: 5px;
+
+
+}
+
+.input h1 {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.in ::placeholder {
+    padding-left: 1rem;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.input button {
+    cursor: pointer;
+    width: 262px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 3rem;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.in button:hover {
+    transition: 1s;
+    margin-left: 2rem;
+    box-shadow: 5px 0px 20px 1px #fefefe43;
+    background-color: #153A37;
+    color: #fff;
+}
+
+.log {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -29rem;
+    margin-right: 3rem;
+}
+
+.log :hover {
+    transition: 2s;
+    transform: rotate(360deg);
+}
+
+.insta {
+    padding-top: 8rem;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+
+@media(min-width:240px)and (max-width:440px) {
+
+
+    body {
+        background-color: #19d31c;
+
+
+
+    }
+
+    .search input {
+        display: inline;
+    }
+
+    .logo {
+        display: grid;
+        padding-top: 2rem;
+        line-height: -2px;
+    }
+
+}
